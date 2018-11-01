@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.youtube.leanback" name="Youtube Leanback" version="1.0" provider-name="Dominique Tardif">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>linux windx</platform>
+		<summary lang="en"></summary>
+		<summary lang="fr"></summary>
+		<description lang="en">Simple addon to start Chrome/Chromium in kiosk mode and launch Youtube Leanback</description>
+		<description lang="fr">Petit addon qui démarre Chrome/Chromium en mode kiosk pour Youtube Leanback</description>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<language>en fr</language>
+		<source></source>
+		<website></website>
+		<forum></forum>
+		<email>dommtardif@gmail.com</email>
+		<news></news>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
